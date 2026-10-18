@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "packreport",
+	"version": "1.0.0",
+	"name": "PackReport",
+	"description": "A comprehensive plain-text report of the mods in a modpack and their metadata!",
+	"authors": [
+		"Randimu"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/packreport/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.client.ExampleModClient"
+		]
+ 	}
+}
